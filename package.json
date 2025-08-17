@@ -1,0 +1,45 @@
+{
+  "name": "@anshsinghsonkhia/pumki-docgen",
+  "version": "1.0.0",
+  "description": "Private CLI to generate MDX docs from TSX components for pumki-ui",
+  "type": "module",
+  "bin": {
+    "pumki-docgen": "./dist/bin/pumki-docgen.js"
+  },
+  "files": ["dist"],
+  "publishConfig": {
+    "access": "public"
+  },
+ "scripts": {
+    "dev": "ts-node bin/pumki-docgen.ts sample/HoverCard.tsx sample/HoverCard.mdx",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnshSinghSonkhia/pumki-docgen.git"
+  },
+  "keywords": [
+    "cli",
+    "pumki",
+    "pumki-ui",
+    "documentation",
+    "doc-gen",
+    "docs",
+    "docs-generator"
+  ],
+  "author": "Ansh Singh Sonkhia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnshSinghSonkhia/pumki-docgen/issues"
+  },
+  "homepage": "https://github.com/AnshSinghSonkhia/pumki-docgen#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "ts-morph": "^22.0.0",
+    "typescript": "^5.4.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
