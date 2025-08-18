@@ -1,16 +1,18 @@
 {
   "name": "@anshsinghsonkhia/pumki-docgen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Private CLI to generate MDX docs from TSX components for pumki-ui",
   "type": "module",
   "bin": {
     "pumki-docgen": "./dist/bin/pumki-docgen.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },
- "scripts": {
+  "scripts": {
     "dev": "ts-node bin/pumki-docgen.ts sample/HoverCard.tsx sample/HoverCard.mdx",
     "build": "tsc"
   },
