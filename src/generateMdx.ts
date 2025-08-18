@@ -80,7 +80,7 @@ export const ${componentName}Demo = () => {
 
 <br/>
 
-<CodeBlock language="typescript">
+<CodeBlock language="typescript" showLineNumbers={false}>
     {\`<${componentName} />\`}
 </CodeBlock>
 
