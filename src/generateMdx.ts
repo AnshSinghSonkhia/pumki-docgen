@@ -22,9 +22,9 @@ title: "${componentName} - Pumki UI"
 
 import { Tabs } from 'nextra/components'
 import { Callout } from 'nextra/components'
-import { CodeBlock } from '../../components/docs/code-block'
-import { Preview, ResponsivePreview } from '../../components/docs/preview'
-import { Button } from '../../components/ui/button'
+import { CodeBlock } from '@/components/docs/code-block'
+import { Preview, ResponsivePreview } from '@/components/docs/preview'
+import { Button } from '@/components/ui/button'
 import ${componentName} from '${relativePath}'
 
 # ${componentName}
@@ -86,7 +86,7 @@ export const ${componentName}Demo = () => {
 
 ## Props
 
-import { PumkiTable, PumkiTableStyles } from '../../components/docs/PumkiTable'
+import { PumkiTable, PumkiTableStyles } from '@/components/docs/PumkiTable'
 
 <PumkiTableStyles />
 <PumkiTable>
